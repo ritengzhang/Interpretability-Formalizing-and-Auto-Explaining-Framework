@@ -41,7 +41,8 @@ When defining a formula, the formula is essentially linked by many elements in i
 
 - `number.py`, an inherited class from elements, defines all types of numbers and their ranges and possible associations with other elements, such as probability, constant, activation, etc.
 
-Instead of using `[]`, we utilize different types of select, argmin, max, etc., and other conditional selections. For getting an attribute of an element, we also have a child class `get_attribute` inherited from method, and other
+Instead of using `[]`, we utilize different types of select, argmin, max, etc., and other conditional selections. For getting an attribute of an element, we also have a child class `get_attribute` inherited from method, and other functions like select also work in the same way to maintain formality while being understandable at the same time.
 
- functions like select also work in the same way to maintain formality while being understandable at the same time.
+Elements can either be of the type 'full list', 'batches related', or 'individual'. In the select function, the desired type is specified, which matches with the type of the output and the type defined by the condition. Some conditions, such as argmin or argmax, can be defined to have multiple types. For example, argmin could output the top 5 choices, not necessarily just one output.
 
+Another goal of this project is to convert formulas into PyTorch modules that automate the interpretability process. If this functionality is desired, then the 'set value' function is required.
