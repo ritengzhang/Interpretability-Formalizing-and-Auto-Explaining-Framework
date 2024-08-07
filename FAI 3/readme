@@ -1,0 +1,16 @@
+# Formalizing and Automating Interpretability Toolkit (FAI)
+
+## Overview
+The Formalizing and Automating Interpretability Toolkit (FAI) is a comprehensive library designed to formalize and automate the process of interpreting machine learning and AI models. The toolkit is designed to help researchers and practitioners understand, select, and implement interpretability methods with ease.
+
+## Features
+- Codification of interpretability methods
+- Feature or characteristic extraction of interpretability methods
+- Automated implementation of interpretability techniques
+- Support for both conceptual and actual contexts
+- Compatibility with PyTorch models
+- Detailed trace and operation tree visualization
+
+## For Users
+FAI provides common elements and functions (you can always add more) that enables formalization of interpretability methods. The codification of the methdos further enables the auto classfications and auto implementaion of the methods. When working with existing methods, elements, or functions in FAI, you can always use chatbot.py file to caht with LLM to help you use FAI more effciently. 
+To enable all the FAI fucntions on a method, all you need you to do is to write out a formula for that method, and define the necessary direct such as the model, input data to be explained. All the elements generated in the intermediate steps are automatically defined for you. Take a look at sample usage for more insights! 
