@@ -1,0 +1,21 @@
+Name,Global vs. Local,Model Specific vs. Model Agnostic,Data Dependent vs. Data Independent,Deterministic vs. Stochastic,Singular vs. Comparative,Structural vs. Behavioral,Sensitivity Based,Inputs Required,Description
+SHAP,Local,Model Agnostic,Data Dependent,Stochastic,Singular,Behavioral,TRUE,"Model, Data",SHAP (SHapley Additive exPlanations) explains the output of any machine learning model using game theory.
+LIME,Local,Model Agnostic,Data Dependent,Stochastic,Singular,Behavioral,TRUE,"Model, Data",LIME (Local Interpretable Model-agnostic Explanations) provides locally faithful explanations of model predictions.
+Partial Dependence Plots,Global,Model Specific,Data Dependent,Deterministic,Singular,Structural,FALSE,"Model, Data",PDPs show the relationship between a feature and the predicted outcome of the model.
+Permutation Importance,Global,Model Agnostic,Data Dependent,Stochastic,Singular,Behavioral,TRUE,"Model, Data",Measures the importance of a feature by permuting its values and observing the change in model performance.
+Integrated Gradients,Local,Model Specific,Data Dependent,Deterministic,Singular,Behavioral,TRUE,"Model, Data",Attributive method for deep networks that provides a sensitivity-based explanation by integrating gradients.
+Anchors,Local,Model Agnostic,Data Dependent,Stochastic,Singular,Behavioral,TRUE,"Model, Data",Provides high-precision rules (anchors) that sufficiently explain the predictions of the model.
+Feature Importance (Tree-based models),Global,Model Specific,Data Dependent,Deterministic,Singular,Structural,FALSE,"Model, Data",Measures the importance of features based on how often they are used in the model's decision paths.
+Counterfactual Explanations,Local,Model Agnostic,Data Dependent,Stochastic,Singular,Behavioral,TRUE,"Model, Data",Generates hypothetical scenarios to understand model predictions.
+Saliency Maps,Local,Model Specific,Data Dependent,Deterministic,Singular,Behavioral,TRUE,"Model, Data",Highlights important regions in an input image for CNNs.
+DeepLIFT,Local,Model Specific,Data Dependent,Deterministic,Singular,Behavioral,TRUE,"Model, Data",Deep Learning Important FeaTures provides attributions by comparing activations.
+Explainable Boosting Machines,Global,Model Specific,Data Dependent,Deterministic,Singular,Structural,TRUE,"Model, Data",Interpretable boosting algorithm that balances accuracy and interpretability.
+ALE Plot,Global,Model Agnostic,Data Dependent,Deterministic,Singular,Structural,TRUE,"Model, Data",Displays the average effect of a feature on predictions.
+Accumulated Local Effects,Global,Model Agnostic,Data Dependent,Deterministic,Singular,Structural,TRUE,"Model, Data",Shows the accumulated effects of features on predictions.
+Grad-CAM,Local,Model Specific,Data Dependent,Deterministic,Singular,Behavioral,TRUE,"Model, Data",Uses class activation maps to highlight important regions in an input image.
+Decision Trees,Global,Model Specific,Data Dependent,Deterministic,Singular,Structural,FALSE,"Model, Data",Simple interpretable models that can be visualized as trees.
+RuleFit,Global,Model Agnostic,Data Dependent,Deterministic,Singular,Structural,FALSE,"Model, Data",Generates rules that explain model predictions.
+Surrogate Models,Global,Model Agnostic,Data Dependent,Stochastic,Singular,Behavioral,TRUE,"Model, Data",Uses simpler models to approximate complex models locally.
+Feature Interaction,Global,Model Agnostic,Data Dependent,Stochastic,Singular,Behavioral,TRUE,"Model, Data",Analyzes the interactions between features.
+ICE Plot,Global,Model Agnostic,Data Dependent,Deterministic,Singular,Structural,TRUE,"Model, Data",Individual Conditional Expectation plots show the effect of a feature for individual predictions.
+SHAP Dependence Plot,Global,Model Agnostic,Data Dependent,Stochastic,Singular,Behavioral,TRUE,"Model, Data",Displays the relationship between a feature and the prediction in SHAP values.
